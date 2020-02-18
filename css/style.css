@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    height: 94vh;
+    background-color: darkgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.index {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    color: white;
+}
+
+.set {
+    color: white;
+
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: columna; */
+}
+
+.settings {
+    background-color: rgb(139, 94, 58);
+    width: 70%;
+    height: 50%;
+    justify-content: center;
+    /* border:4px solid rgb(0, 0, 0); */
+    border-radius:50px;
+    flex-direction: column;
+}
+
+.blank {
+    height: 20px;
+}
