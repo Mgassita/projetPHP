@@ -16,7 +16,7 @@
         <div class="index">
             <h1>ShaRK_eSport®</h1>
             <div class="blank"></div>
-            <img src="./img/logoShaRK.jpg" alt="">
+            <img src="./img/logoShaRK.jpg" id="logo">
             <?php if (isset($_SESSION['text']) == 'checked') :   ?>
                 <h2 id="txtDesc">ShaRK_eSport te souhaite la bienvenue <?= $_SESSION['pseudo'] ?> sur note site</h2>
             <div class="blank"></div>

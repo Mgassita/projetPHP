@@ -16,6 +16,11 @@ main {
     background-color: darkgray;
     justify-content: center;
     align-items: center;
+    background-image:url(../img/index.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
 .index {
@@ -50,4 +55,8 @@ form {
 
 .blank {
     height: 20px;
+}
+
+#logo {
+    border: solid 2px white;
 }
